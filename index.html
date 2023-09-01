@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundolin Hotel & Suites</title>
+    <link rel="stylesheet" href="index.css">
+   <link rel="icon" href="Black Gold Modern Real Estate Logo.png" type="image/x-icon">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="banner">
+        <img src="FNL.png" class="logo">
+        <div class="banner-text">
+            <h1>Fundolin Hotel & Suites</h1>
+            <p1>We Provide You With The Best Of Confort</p1>
+            <div class="banner-btn">
+                <a href="#footer"><span></span>Contact Us</a>
+                <a href="#testimonials"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEAUTURE</a></li>
+                <li><a href="#aboutus">SERVICES</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#footer">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div id="menuBtn">
+           <img src="menu.png" alt="menu">
+        </div>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "close.png";
+                }
+                else{
+                    sideNav.style.right ="-250px";
+                    menu.src = "menu.png";
+                }
+            }
+            var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
+        </script>
+    </div>
+     <!--Features-->
+        
+     <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Certified And Experienced Worker</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="feature-text">
+                         <p>Fundolin Hotel And Suites hasthe most skilled certified trained workers providing a very Satisfying Stay.</p>
+                    </div>
+                </div>
+                <h1>Book A Room Now</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="feature-text">
+                         <p>Fundolin Hotel And suites the Best Choice You'll ever make .</p>
+                    </div>
+                </div>
+                <h1>Our Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <div class="feature-text">
+                         <p>FundolinHotel And Suites are very affordable and best prices for families and individuals is truely impeccable willing to give you the best comfort (Satisfaction) at affordable prices and also  giving discounts of 30% off for the first one-thousand customers.</p>                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="Black Gold Modern Real Estate Logo.png">
+            </div>
+        </div>
+    </section>
+    <!--About Us-->
+
+    <section id="aboutus">
+        <div class="title-text">
+            <p>Services</p>
+            <h1>Fundolin Hotel And Suites</h1>
+        </div>
+        <div class="aboutus-box">
+            <div class="founder-info">
+                <img src="th (3).jpg">
+                <div class="overlay"></div>
+                <div class="founder-desc">
+                    <h3>Fundolin Hotel And suites</h3>
+                    <hr>
+                    <p>We Provide the best services</p>
+                </div>
+            </div>
+            <div class="founder-info">
+                <img src="R  v.jpeg">
+                <div class="overlay"></div>
+                <div class="founder-desc">
+                <h3>Fundolin</h3>
+                    <hr>
+                    <p>Hotels And suites</p>
+                </div>
+            </div>
+            <div class="founder-info">
+                <img src="wa2.jpg">
+                <div class="overlay"></div>
+                <div class="founder-desc">
+                <h3>Fundolin Hotels</h3>
+                <hr>
+                <p>Inside View</p>
+                </div>
+            </div>
+            <div class="founder-info">
+                <img src="th (1).jpg">
+                <div class="overlay"></div>
+                <div class="founder-desc">
+                <h3>Fundolin Hotel  Room 1</h3>
+                <hr>
+                <p>Very Comfortable And Affordable</p>
+            </div>
+           </div>
+        </div>
+    </section>
+<!--Testimonials-->
+<section id="testimonials">
+    <div class="title-text">
+        <p>TESTIMONIALS</p>
+        <h1>Reviews About Fundolin Hotel And Suites</h1>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="th (2).jpg">
+                <div class="user-info">
+                    <h4>Hon.Akintunde</h4>
+                    <small>@Hon.Akintunde <c</i></small>
+                </div>
+            </div>
+            <p>Fundolin Hotel and suites is so amazing,so comfortable.My stay there was so wonderful and exciting.
+                i will always recommend this wonderful hotel to anyone Home/Abroad its to amazing i was so comfortable and secured love Fundolin Hotel and suites.
+            </p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="download (5).jpeg">
+                <div class="user-info">
+                    <h4>Hon Samuel.</h4>
+                    <small>@Hon Samuel Akinola<i class="fa fa-twitter"></i></small>
+                </div>
+            </div>
+            <p>Just Amazing Fundolin Hotel And Suites just cant get any better than this truely the best experience for me and my family found our comfort in there not to talk about the workers so very nice and entertaining,We were truely Amazed by Fundolin Hotel And Suites giving their best us   keep the good work up.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="WhatsApp Image 2023-08-30 at 09.44.56.jpg">
+                <div class="user-info">
+                    <h4>Omenkwu Valentine</h4>
+                    <small>@Omenkwu Valentine<i class="fa fa-twitter"></i></small>
+                </div>
+            </div>
+            <p> Fundolin Hotel And Suites is Very Diffrent From all other hotels. 
+                Their srvices here is fantastic the workers are very nice and security very tight 
+            i spent two night there and it felt like paradise.i would recommend FUNDOLIN HOTEL AND SUITES for 
+        any foreigners </p>
+        </div> 
+    </div>
+</section>
+<!--footer-->
+<section id="footer">
+    <img src="th (2).jpg" class="footer-img">
+        <div class="title-text">
+            <p>Contact Us</p>
+            <h1>Fundolin Hotel & Suites</h1>
+        </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p><i class="fa fa-clock-o"></i>Monday to Saturday-Open 24/7</p>
+            <p><i class="fa fa-clock-o"></i>Sunday-Open 24/7</p>
+        </div>
+        <div class="footer-right">
+            <h1>Contacts Us Now</h1>
+            <p>No 1 Ogunbona Street <a href="https://www.bing.com/ck/a?!&&p=c29ffd32426d37f4JmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE4NA&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=map+link&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmluL21hcHM&ntb=1"><i class="fa fa-map-marker"></i></a></p>
+           <p>ogunbonainumidun@gmail.com <a href="https://www.bing.com/ck/a?!&&p=12b1a464a726c050JmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE5Mw&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=telegram+link&u=a1aHR0cHM6Ly93ZWIudGVsZWdyYW0ub3JnLw&ntb=1"><i class="fa fa-paper-plane"></i></a></p>
+            <p>+234 9011074725 +234 8023407684<i class="fa fa-phone"></i></p>
+        </div>
+        
+    </div>
+    <div class="social-links">
+        <a href="https://www.bing.com/ck/a?!&&p=ac035ceb49e7f90aJmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE4MA&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=facebook+lite+login&u=a1aHR0cHM6Ly9saXRlLmZhY2Vib29rLmNvbS8&ntb=1"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.bing.com/ck/a?!&&p=e5066dcae5d24ca9JmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE4NQ&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=twitter+login&u=a1aHR0cHM6Ly9tLnR3aXR0ZXIuY29tL2xvZ2lu&ntb=1"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.bing.com/ck/a?!&&p=5ef863d9e98ce797JmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE4MQ&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=instagram+login&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8_aGw9ZW4&ntb=1"><i class="fa fa-instagram"></i></a>
+       <a href="https://www.bing.com/ck/a?!&&p=97bc1978d3dba702JmltdHM9MTY5MzUyNjQwMCZpZ3VpZD0yMGQ3ZDJhMi0wZDZjLTY0NDMtMmE5Ni1jMWU0MGM3MTY1MGQmaW5zaWQ9NTE4Mg&ptn=3&hsh=3&fclid=20d7d2a2-0d6c-6443-2a96-c1e40c71650d&psq=youtube+login&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2xvZ2lu&ntb=1"> <i class="fa fa-youtube-play"></i></a>
+        <p>@Copyright Fundolin Hotel And Suites</p>
+    </div>
+</section>
+
+</body>
+</html>
